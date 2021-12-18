@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <unistd.h>
+
 
 int main() {
     int choice;
@@ -70,10 +72,12 @@ int main() {
 
     else if (choice == 5) {
 	printf("gay calculator\n");
-	printf("version 1.1\n");
+	printf("version 1.1.1\n");
 	printf("made by broken\n");
 	printf("https://brokenlabs.cf\n");
     }
 
+    printf("\n\nclosing in 10 seconds\n");
+    sleep(10);
     return 0;
 }
