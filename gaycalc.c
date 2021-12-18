@@ -7,7 +7,7 @@ int main() {
     float num1, num2, result;
     //print choices
     printf("###############\n");
-    printf("#     gay     #\n");
+    printf("#     str8     #\n");
     printf("# calculator  #\n");
     printf("#    in C     #\n");
     printf("###############\n");
